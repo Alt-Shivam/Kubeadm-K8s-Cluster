@@ -9,7 +9,9 @@ Following are the prerequisites for Kubeadm Kubernetes cluster setup.
 
 ## Kubeadm Port Requirements
 Please refer to the following image and make sure all the ports are allowed for the control plane (master) and the worker nodes. If you set up this on a cloud, make sure you allow the ports in the firewall configuration.
-![image](https://user-images.githubusercontent.com/81817735/187059532-3991b917-5041-45dc-9333-93f0438c7046.png)
+![image](https://user-images.githubusercontent.com/81817735/187059532-3991b917-5041-45dc-9333-93f0438c7046.png)  
+
+
 If you are using vagrant-based Ubuntu VMs, the firewall would be disabled by default. So you don’t have to do any firewall configurations.
 
 ## Kubernetes Cluster Setup Using Kubeadm
