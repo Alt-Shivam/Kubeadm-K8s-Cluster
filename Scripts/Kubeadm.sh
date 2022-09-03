@@ -75,3 +75,5 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 kubectl taint nodes --all node-role.kubernetes.io/master-
 
 kubectl taint node ubuntu node-role.kubernetes.io/control-plane:NoSchedule-
+
+# kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
