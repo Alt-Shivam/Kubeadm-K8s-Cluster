@@ -76,4 +76,6 @@ kubectl taint nodes --all node-role.kubernetes.io/master-
 
 kubectl taint node ubuntu node-role.kubernetes.io/control-plane:NoSchedule-
 
+kubectl taint nodes ubuntu node-role.kubernetes.io/control-plane-
+
 # kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
