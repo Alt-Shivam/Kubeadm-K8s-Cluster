@@ -168,4 +168,5 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 kubectl get po -n kube-system
 ```
 
+
 ### Installing a CNI is beyond the scope of this repo, please install a desired CNI.
